@@ -95,6 +95,16 @@
     [PNRed set];
     [be stroke];
     
+    // 三角形
+    UIBezierPath *triangle = [UIBezierPath bezierPath];
+    [triangle moveToPoint:CGPointMake(145, 165)];
+    [triangle addLineToPoint:CGPointMake(155, 185)];
+    [triangle addLineToPoint:CGPointMake(135, 185)];
+    [PNStarYellow set];
+    [triangle fill];
+//    [triangle stroke];
+    [triangle closePath];
+    
     // 二次贝塞尔曲线
     UIBezierPath *quadBe = [UIBezierPath bezierPath];
     [quadBe moveToPoint:CGPointMake(30, 150)];
