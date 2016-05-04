@@ -15,6 +15,7 @@
 		A6B7A1DF1CD9B8010067EF69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B7A1DD1CD9B8010067EF69 /* LaunchScreen.storyboard */; };
 		A6B7A1EA1CD9B8010067EF69 /* UIBezierPathDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B7A1E91CD9B8010067EF69 /* UIBezierPathDemoTests.m */; };
 		A6B7A1F51CD9B8010067EF69 /* UIBezierPathDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B7A1F41CD9B8010067EF69 /* UIBezierPathDemoUITests.m */; };
+		A6B7A2041CD9B82A0067EF69 /* DrawingBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B7A2031CD9B82A0067EF69 /* DrawingBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A6B7A1F01CD9B8010067EF69 /* UIBezierPathDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIBezierPathDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B7A1F41CD9B8010067EF69 /* UIBezierPathDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIBezierPathDemoUITests.m; sourceTree = "<group>"; };
 		A6B7A1F61CD9B8020067EF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B7A2021CD9B82A0067EF69 /* DrawingBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingBoard.h; sourceTree = "<group>"; };
+		A6B7A2031CD9B82A0067EF69 /* DrawingBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingBoard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A6B7A1D31CD9B7FF0067EF69 /* AppDelegate.m */,
 				A6B7A1D51CD9B8000067EF69 /* ViewController.h */,
 				A6B7A1D61CD9B8000067EF69 /* ViewController.m */,
+				A6B7A2021CD9B82A0067EF69 /* DrawingBoard.h */,
+				A6B7A2031CD9B82A0067EF69 /* DrawingBoard.m */,
 				A6B7A1D81CD9B8000067EF69 /* Main.storyboard */,
 				A6B7A1DB1CD9B8010067EF69 /* Assets.xcassets */,
 				A6B7A1DD1CD9B8010067EF69 /* LaunchScreen.storyboard */,
@@ -207,7 +212,6 @@
 				TargetAttributes = {
 					A6B7A1CB1CD9B7FD0067EF69 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = A8KFV64EKE;
 					};
 					A6B7A1E41CD9B8010067EF69 = {
 						CreatedOnToolsVersion = 7.3;
@@ -274,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6B7A1D71CD9B8000067EF69 /* ViewController.m in Sources */,
+				A6B7A2041CD9B82A0067EF69 /* DrawingBoard.m in Sources */,
 				A6B7A1D41CD9B7FF0067EF69 /* AppDelegate.m in Sources */,
 				A6B7A1D11CD9B7FF0067EF69 /* main.m in Sources */,
 			);
@@ -418,7 +423,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UIBezierPathDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lcy.UIBezierPathDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,7 +436,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UIBezierPathDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lcy.UIBezierPathDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
