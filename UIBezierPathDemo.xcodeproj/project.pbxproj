@@ -16,6 +16,7 @@
 		A6B7A1EA1CD9B8010067EF69 /* UIBezierPathDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B7A1E91CD9B8010067EF69 /* UIBezierPathDemoTests.m */; };
 		A6B7A1F51CD9B8010067EF69 /* UIBezierPathDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B7A1F41CD9B8010067EF69 /* UIBezierPathDemoUITests.m */; };
 		A6B7A2041CD9B82A0067EF69 /* DrawingBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B7A2031CD9B82A0067EF69 /* DrawingBoard.m */; };
+		A6B7A2061CDA06F50067EF69 /* sketch.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B7A2051CDA06F50067EF69 /* sketch.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		A6B7A1F61CD9B8020067EF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6B7A2021CD9B82A0067EF69 /* DrawingBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingBoard.h; sourceTree = "<group>"; };
 		A6B7A2031CD9B82A0067EF69 /* DrawingBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingBoard.m; sourceTree = "<group>"; };
+		A6B7A2051CDA06F50067EF69 /* sketch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sketch.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				A6B7A1DB1CD9B8010067EF69 /* Assets.xcassets */,
 				A6B7A1DD1CD9B8010067EF69 /* LaunchScreen.storyboard */,
 				A6B7A1E01CD9B8010067EF69 /* Info.plist */,
+				A6B7A2051CDA06F50067EF69 /* sketch.png */,
 				A6B7A1CF1CD9B7FE0067EF69 /* Supporting Files */,
 			);
 			path = UIBezierPathDemo;
@@ -253,6 +256,7 @@
 				A6B7A1DF1CD9B8010067EF69 /* LaunchScreen.storyboard in Resources */,
 				A6B7A1DC1CD9B8010067EF69 /* Assets.xcassets in Resources */,
 				A6B7A1DA1CD9B8000067EF69 /* Main.storyboard in Resources */,
+				A6B7A2061CDA06F50067EF69 /* sketch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +514,7 @@
 				A6B7A1FB1CD9B8020067EF69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6B7A1FC1CD9B8020067EF69 /* Build configuration list for PBXNativeTarget "UIBezierPathDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +523,7 @@
 				A6B7A1FE1CD9B8020067EF69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6B7A1FF1CD9B8020067EF69 /* Build configuration list for PBXNativeTarget "UIBezierPathDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +532,7 @@
 				A6B7A2011CD9B8020067EF69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
